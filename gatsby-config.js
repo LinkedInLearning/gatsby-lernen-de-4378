@@ -7,7 +7,7 @@
 module.exports = {
   siteMetadata: {
     title: `Opinionated Starter`,
-    titleTemplate: `%s · a starting point`,
+    titleTemplate: `%s · ein Startpunkt`,
     author: {
       name: `Morten Rand-Hendriksen`,
       summary: `a ballroom dancer playing at being a developer.`,
