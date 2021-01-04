@@ -16,6 +16,14 @@ const AboutPage = () => {
       />
       <section>
         <h1>Über diese Site</h1>
+        <figure>
+          <img
+            src="/images/bubbles-callout.png"
+            width="480"
+            height="440"
+            alt="Bubbles der Roboter"
+          />
+        </figure>
         <div><p>Ein erster Absatz in der neu erstellten Seite</p>
         <p>Diese Seite basiert auf index.js.</p></div>
       </section>
