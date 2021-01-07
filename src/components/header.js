@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
 const Header = ({ siteTitle, siteDescription }) => (
-  <header id="site-header" role="banner">
+  <header id="site-header">
     <div>
       <Link to="/">
         <img
