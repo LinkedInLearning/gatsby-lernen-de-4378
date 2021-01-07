@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
 import style from "./header.module.css"
+import MainNav from "./mainnav"
 
 const Header = ({ siteTitle, siteDescription }) => (
   <header id="site-header" className={style.masthead}>
@@ -19,6 +20,7 @@ const Header = ({ siteTitle, siteDescription }) => (
         <div>{siteDescription}</div>
       </Link>
     </div>
+    <MainNav />
   </header>
 )
 
