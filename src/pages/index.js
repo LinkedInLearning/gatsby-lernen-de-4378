@@ -3,8 +3,6 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import style from "./index.module.css"
-
 const IndexPage = () => {
   return (
     <Layout>
@@ -16,8 +14,8 @@ const IndexPage = () => {
         // Boolscher Wert, ob article:
         // article
       />
-      <section className={style.wrapper}>
-        <h1 className={style.heading}>Hier steht der Inhalt der Startseite.</h1>
+      <section>
+        <h1>Hier steht der Inhalt der Startseite.</h1>
         <div>
           <p>Diese Datei, index.js, ist die Startseite der Site.</p>
           <p>
