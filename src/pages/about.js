@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import RobotImage from "../components/robotimage"
+import style from "./events.module.css"
 
 const AboutPage = () => {
   return (
@@ -15,8 +16,8 @@ const AboutPage = () => {
         // Boolscher Wert, ob article:
         // article
       />
-      <section>
-        <h1>Über diese Site</h1>
+      <section className={style.wrapper}>
+        <h1 className={style.heading}>Über diese Site</h1>
         <RobotImage
           src={"/images/bubbles-callout.png"}
           alt={"Bubbles, der Roboter"}
@@ -33,3 +34,17 @@ const AboutPage = () => {
 }
 
 export default AboutPage
+
+export const query = graphql`
+  {
+    headerImage: file(
+      relativePath: { eq: "robots-androids-and-cyborgs-oh-my-1184x360.jpg" }
+    ) {
+      childImageSharp {
+        fluid(maxWidth: 1184) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
