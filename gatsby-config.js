@@ -16,6 +16,7 @@ module.exports = {
     url: `https://something.or.other`,
     logo: `static/logo.png`,
     twitter: `mor10`,
+    //pages: [`index`, `about`, `events`],
     menuLinks: [
       {
         name: `Start`,
@@ -45,5 +46,19 @@ module.exports = {
         path: `${__dirname}/content/images/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `events`,
+        path: `${__dirname}/content/events/`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-yaml`,
+      options: {
+        typeName: `Event`, // a fixed string
+      },
+    },
+
   ],
 }
