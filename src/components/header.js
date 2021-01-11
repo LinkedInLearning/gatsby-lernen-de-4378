@@ -5,7 +5,7 @@ import PropTypes from "prop-types"
 import style from "./header.module.css"
 import MainNav from "./mainnav"
 
-const Header = ({ siteTitle, siteDescription }) => (
+const Header = ({ siteTitle, siteDescription, menuLinks }) => (
   <header id="site-header" className={style.masthead}>
     <div className={style.masthead_info}>
       <Link to="/">
@@ -20,7 +20,7 @@ const Header = ({ siteTitle, siteDescription }) => (
         <div>{siteDescription}</div>
       </Link>
     </div>
-    <MainNav />
+    <MainNav menuLinks={menuLinks} />
   </header>
 )
 
