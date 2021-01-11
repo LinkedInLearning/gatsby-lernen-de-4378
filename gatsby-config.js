@@ -16,10 +16,9 @@ module.exports = {
     url: `https://something.or.other`,
     logo: `static/logo.png`,
     twitter: `mor10`,
-    //pages: [`index`, `about`, `events`],
     menuLinks: [
       {
-        name: `Home`,
+        name: `Start`,
         link: `/`,
       },
       {
