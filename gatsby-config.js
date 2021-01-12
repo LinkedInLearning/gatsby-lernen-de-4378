@@ -59,6 +59,28 @@ module.exports = {
         typeName: `Event`, // a fixed string
       },
     },
-
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `articles`,
+        path: `${__dirname}/content/articles/`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              //Es ist wichtig die maxWidth (in Pixeln) vom Inhalts-Container anzugeben
+              //weil dieses Plugin das für die Erzeugung der Bilder benötigt
+              maxWidth: 1080,
+              quality: 100,
+            },
+          },
+        ],
+      },
+    },
   ],
 }
