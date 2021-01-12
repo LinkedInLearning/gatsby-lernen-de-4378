@@ -1,7 +1,7 @@
 ---
 title: Recyclen mit Robotern
 date: 2021-03-24
-subject: ["lifestyle", "technology"]
+subject: ["lifestyle", "technologie"]
 author: Spring
 featimg: robotic-waste-recycling-1184x360.jpg
 ---

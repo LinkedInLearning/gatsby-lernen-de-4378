@@ -1,7 +1,7 @@
 ---
 title: Roboter, Androids und Cyborgs
 date: 2020-10-22
-subject: ["product", "technology"]
+subject: ["produkt", "technologie"]
 author: Dolores
 featimg: robots-androids-and-cyborgs-oh-my-1184x360.jpg
 ---

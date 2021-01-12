@@ -1,7 +1,7 @@
 ---
 title: Die Wahrheit über Factory Automation
 date: 2021-04-08
-subject: ["automation", "products", "technology"]
+subject: ["automation", "produkt", "technologie"]
 author: Levi
 featimg: the-real-story-behind-factory-automation-1184x360.jpg
 ---

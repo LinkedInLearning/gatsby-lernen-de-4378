@@ -1,7 +1,7 @@
 ---
 title: Mit künstlicher Intelligenz Gutes tun
 date: 2021-03-01
-subject: ["automation", "lifestyle", "technology"]
+subject: ["automation", "lifestyle", "technologie"]
 author: Fred
 featimg: using-artificial-intelligence-to-do-good-1184x360.jpg
 ---
