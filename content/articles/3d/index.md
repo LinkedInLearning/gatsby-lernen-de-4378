@@ -1,7 +1,7 @@
 ---
 title: Kreativ mit 3D-Druckern
 date: 2020-10-15
-subject: ["automation", "technology"]
+subject: ["automation", "technologie"]
 author: Dolores
 featimg: getting-creative-with-3-d-printers-1184x360.jpg
 ---
