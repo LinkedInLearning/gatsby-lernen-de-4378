@@ -15,7 +15,7 @@ const EventsPage = ({ data }) => {
         title="Events"
         description="Kommen Sie zu unseren Events!"
         image="/logo.png"
-        pathname="/"
+        pathname="/events"
         // Boolscher Wert, ob article:
         // article
       />
