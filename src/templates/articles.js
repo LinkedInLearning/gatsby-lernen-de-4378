@@ -17,7 +17,7 @@ const ArticleIndex = ({ data, pageContext, location }) => {
   return (
     <Layout location={location}>
       <section className={style.articlelist}>
-        <h2>Articles</h2>
+        <h2>Artikel</h2>
         <ul>
           {posts.map(({ node }, index) => (
             <li key={index} className={style.listitem}>
