@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 import _ from "lodash"
 
 import style from "./articles.module.css"
+import SEO from "../components/seo"
 import Layout from "../components/layout"
 import Pagination from "../components/pagination"
 
@@ -16,6 +17,14 @@ const ArticleIndex = ({ data, pageContext, location }) => {
 
   return (
     <Layout location={location}>
+      <SEO
+        title="Artikel"
+        description="Alle Artikel"
+        image="/logo.png"
+        pathname="/articles"
+        // Boolean indicating whether this is an article:
+        // article
+      />
       <section className={style.articlelist}>
         <h2>Artikel</h2>
         <ul>
@@ -58,7 +67,6 @@ const ArticleIndex = ({ data, pageContext, location }) => {
                     index > 0 && ", ",
                     <Link key={index} to={`/subjects/${_.kebabCase(subject)}`}>
                       {subject}
-                     
                     </Link>,
                   ])}
                 </div>

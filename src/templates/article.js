@@ -4,12 +4,21 @@ import Img from "gatsby-image"
 import _ from "lodash"
 
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import style from "./article.module.css"
 
 export default ({ data }) => {
   const article = data.markdownRemark
   return (
     <Layout>
+      <SEO
+        title={article.frontmatter.title}
+        description={article.excerpt}
+        image="/logo.png"
+        pathname={article.fields.slug}
+        // Boolescher Wert, ob Artikel
+        article
+      />
       <article className={style.article}>
         {article.frontmatter.featimg && (
           <figure className={style.featimg}>
@@ -52,6 +61,10 @@ export const query = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
+      excerpt
+      fields {
+        slug
+      }
       frontmatter {
         title
         date

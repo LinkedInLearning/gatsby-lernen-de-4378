@@ -6,6 +6,7 @@ import _ from "lodash"
 import style from "./articles.module.css"
 import Layout from "../components/layout"
 import Pagination from "../components/pagination"
+import SEO from "../components/seo"
 
 // Component to place a conditional wrapper around content.
 const ConditionalWrapper = ({ condition, wrapper, children }) =>
@@ -23,6 +24,14 @@ const ArticleIndex = ({ data, pageContext }) => {
 
   return (
     <Layout>
+      <SEO
+        title={`Alle Artikel über "${subject}"`}
+        description="Alle Artikel zu diesem Thema."
+        image="/logo.png"
+        pathname={`/subjects/${subject}`}
+        // Boolescher Wert, ob ARtikel:
+        // article
+      />
       <section className={style.articlelist}>
         <h2>{pageHeader}</h2>
         <ul>
@@ -60,7 +69,7 @@ const ArticleIndex = ({ data, pageContext }) => {
                   })}{" "}
                 </div>
                 <div className={style.article__tax}>
-                  Filed under:{" "}
+                  Themen:{" "}
                   {node.frontmatter.subject.map((subject, index) => [
                     index > 0 && ", ",
                     <Link key={index} to={`/subjects/${_.kebabCase(subject)}`}>
