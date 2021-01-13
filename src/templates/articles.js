@@ -58,7 +58,7 @@ const ArticleIndex = ({ data, pageContext, location }) => {
                     index > 0 && ", ",
                     <Link key={index} to={`/subjects/${_.kebabCase(subject)}`}>
                       {subject}
-                      {index}
+            
                     </Link>,
                   ])}
                 </div>
