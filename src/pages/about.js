@@ -12,7 +12,7 @@ const AboutPage = () => {
         description="Informationen über diese Site"
         image="/logo.png"
         pathname="/"
-        // Boolscher Wert, ob article:
+        // Boolescher Wert, ob article:
         // article
       />
       <section>
