@@ -11,7 +11,7 @@ const IndexPage = () => {
         description="SEO-Description anpassen"
         image="/logo.png"
         pathname="/"
-        // Boolscher Wert, ob article:
+        // Boolescher Wert, ob article:
         // article
       />
       <section>
