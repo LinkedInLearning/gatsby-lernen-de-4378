@@ -32,3 +32,6 @@ h6 {
   font-weight: 700;
   line-height: 1.15;
 }
+.site_main {
+  color: inherit;
+}
