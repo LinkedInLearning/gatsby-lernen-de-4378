@@ -52,7 +52,7 @@ const ArticleIndex = ({ data, pageContext }) => {
                 </Link>
 
                 <div className={style.article__meta}>
-                  by {node.frontmatter.author}. Published{" "}
+                  von {node.frontmatter.author}. Veröffentlicht{" "}
                   {new Date(node.frontmatter.date).toLocaleDateString("de-DE", {
                     month: "long",
                     day: "numeric",
@@ -60,7 +60,7 @@ const ArticleIndex = ({ data, pageContext }) => {
                   })}{" "}
                 </div>
                 <div className={style.article__tax}>
-                  Filed under:{" "}
+                  Thema:{" "}
                   {node.frontmatter.subject.map((subject, index) => [
                     index > 0 && ", ",
                     <Link key={index} to={`/subjects/${_.kebabCase(subject)}`}>
