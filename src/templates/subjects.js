@@ -61,7 +61,7 @@ const ArticleIndex = ({ data, pageContext }) => {
                 </Link>
 
                 <div className={style.article__meta}>
-                  by {node.frontmatter.author}. Published{" "}
+                  von {node.frontmatter.author}. Veröffentlicht{" "}
                   {new Date(node.frontmatter.date).toLocaleDateString("de-DE", {
                     month: "long",
                     day: "numeric",
