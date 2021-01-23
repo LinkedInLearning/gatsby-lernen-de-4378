@@ -65,7 +65,7 @@ export const query = graphql`
     }
     robotImage: file(relativePath: { eq: "bubbles-disc.png" }) {
       childImageSharp {
-        fixed(width: 300) {
+        fixed(width: 280) {
           ...GatsbyImageSharpFixed
         }
       }
