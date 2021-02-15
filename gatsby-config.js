@@ -86,20 +86,5 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Unser Projekt`,
-        short_name: `Unser Projekt`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#ffffff`,
-        // Aktiviert "Zum Homebildschirm hinzufügen" und deaktiviert Browser-UI (inkl. Zurück-Button)
-        // siehe https://developers.google.com/web/fundamentals/web-app-manifest/#display
-        display: `standalone`,
-        icon: `static/icon.png`,
-      },
-    },
-    `gatsby-plugin-offline`,
   ],
 }
