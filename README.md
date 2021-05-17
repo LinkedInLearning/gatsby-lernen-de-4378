@@ -1,5 +1,7 @@
 # Gatsby lernen
-Dies ist das Repository für den Kurs „Gatsby lernen“ auf LinkedIn Learning. Der gesamte Kurs ist bei [LinkedIn Learning](LICOURSEURL) erhältlich.
+Dies ist das Repository für den Kurs „Gatsby lernen“ auf LinkedIn Learning. Der gesamte Kurs ist bei [LinkedIn Learning][lil-course-url] erhältlich.
+
+![Gatsby lernen][lil-thumbnail-url] 
 
 Gatsby ist eine moderne Version des statischen Website-Generators, der mit React gebaut wurde und GraphQL verwendet, um Informationen aus Datenquellen wie WordPress zu extrahieren. In diesem Kurs lernen Sie mit Morten Rand-Hendriksen und Florence Maurice, wie man dieses flexible JavaScript Framework verwendet, um leistungsorientierte Webseiten zu erstellen. Entdecken Sie, wie man Gatsby einrichtet, und verwenden Sie die Starterprojekte, um Ihre Seiten auszubauen. Finden Sie heraus, wie Sie mit Gatsby-Seiten, -Assets und -Komponenten arbeiten und Ihre Seiten mithilfe mehrerer CSS-Ansätze, wie statischen Standard-Stylesheets, Inline-Styles, CSS-Modulen, Styled Components und vielem mehr, gestalten. In diesem Kurs lernen Sie außerdem, wie Sie Gatsby mit Plug-ins erweitern, mittels GraphQL-Abfragen eine Verbindung zu Datenquellen herstellen, wie Sie mit Transformer-Plug-ins und Node.js-Skripten dynamisch Seiten erstellen und welche Schritte notwendig sind, damit Ihre Gatsby-Webseite live funktioniert.
 
@@ -15,3 +17,6 @@ Branches sind passend zu den Videos des Kurses strukturiert. Die Namenskonventio
 2. Klonen Sie dieses Repository mit dem Terminal (Mac), CMD (Windows) oder einem GUI-Tool wie SourceTree auf Ihren lokalen Computer.
 3. Navigieren Sie im Terminal zum Projektordner und führen Sie den Befehl `npm install` aus.
 4. Um mit der Entwicklung zu beginnen, führen Sie den Befehl `npx gatsby develop` aus.
+
+[lil-course-url]: https://www.linkedin.com/learning/gatsby-lernen
+[lil-thumbnail-url]: https://cdn.lynda.com/course/2372981/2372981-1620827928346-16x9.jpg
