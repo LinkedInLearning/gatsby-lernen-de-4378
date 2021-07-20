@@ -1,18 +1,22 @@
-# Learning Gatsby
-This is the repository for the LinkedIn Learning course Learning Gatsby. The full course is available from [LinkedIn Learning](LICOURSEURL).
+# Gatsby lernen
+Dies ist das Repository für den Kurs „Gatsby lernen“ auf LinkedIn Learning. Der gesamte Kurs ist bei [LinkedIn Learning][lil-course-url] erhältlich.
 
-[COURSEDESCRIPTION]
+![Gatsby lernen][lil-thumbnail-url] 
 
-## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+Gatsby ist eine moderne Version des statischen Website-Generators, der mit React gebaut wurde und GraphQL verwendet, um Informationen aus Datenquellen wie WordPress zu extrahieren. In diesem Kurs lernen Sie mit Morten Rand-Hendriksen und Florence Maurice, wie man dieses flexible JavaScript Framework verwendet, um leistungsorientierte Webseiten zu erstellen. Entdecken Sie, wie man Gatsby einrichtet, und verwenden Sie die Starterprojekte, um Ihre Seiten auszubauen. Finden Sie heraus, wie Sie mit Gatsby-Seiten, -Assets und -Komponenten arbeiten und Ihre Seiten mithilfe mehrerer CSS-Ansätze, wie statischen Standard-Stylesheets, Inline-Styles, CSS-Modulen, Styled Components und vielem mehr, gestalten. In diesem Kurs lernen Sie außerdem, wie Sie Gatsby mit Plug-ins erweitern, mittels GraphQL-Abfragen eine Verbindung zu Datenquellen herstellen, wie Sie mit Transformer-Plug-ins und Node.js-Skripten dynamisch Seiten erstellen und welche Schritte notwendig sind, damit Ihre Gatsby-Webseite live funktioniert.
+
+## Anleitung
+Dieses Repository hat Branches für jedes der Videos im Kurs. Verwenden Sie das Branch-Pop-up-Menü in GitHub, um zu einem bestimmten Branch zu wechseln bzw. um bei einem spezifischen Kursstatus einzusteigen, oder fügen Sie `/tree/BRANCH_NAME` zum URL hinzu, um auf den gewünschten Branch zuzugreifen.  
 
 ## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `master` branch holds the final state of the code when in the course.
+Branches sind passend zu den Videos des Kurses strukturiert. Die Namenskonvention lautet Kapitel#_Video#. Der Branchname 02_03 steht zum Beispiel für das dritte Video im zweiten Kapitel. Manche Branches haben einen Anfangsstatus und einen Endstatus. Diese sind mit den Buchstaben b für „beginning“ (Anfang) und e für „end“ (Ende) versehen. Der Branch mit b am Ende enthält den Code, der zu Beginn des Videos zu sehen ist, während der Branch mit e am Ende den Code enthält, der am Ende des Videos zu sehen ist. Der Master-Branch enthält den finalen Status des Codes.
 
-## Installing
-1. To use these exercise files, you must have the following installed:
+## Installation
+1. Um diese Übungsdateien verwenden zu können, muss Folgendes installiert sein:
 	- [Node.js](https://nodejs.org/en/)
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. In terminal, navigate to the project folder and run the command `npm install`.
-4. To start developing, run the command `gatsby develop`.
+2. Klonen Sie dieses Repository mit dem Terminal (Mac), CMD (Windows) oder einem GUI-Tool wie SourceTree auf Ihren lokalen Computer.
+3. Navigieren Sie im Terminal zum Projektordner und führen Sie den Befehl `npm install` aus.
+4. Um mit der Entwicklung zu beginnen, führen Sie den Befehl `npx gatsby develop` aus.
+
+[lil-course-url]: https://www.linkedin.com/learning/gatsby-lernen
+[lil-thumbnail-url]: https://cdn.lynda.com/course/2372981/2372981-1620827928346-16x9.jpg
